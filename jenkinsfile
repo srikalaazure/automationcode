@@ -7,5 +7,11 @@ stage ('code checkout') {
         }
 
         }
+        stage ('code checkout') {
+        steps {
+            echo 'helloworld'
+        }
+
+        }
     }
 }
