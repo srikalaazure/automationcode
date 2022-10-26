@@ -1,0 +1,10 @@
+pipeline {
+    agent any 
+    stages ('code checkout') {
+        steps {
+            echo 'helloworld'
+        }
+
+        }
+    }
+}
